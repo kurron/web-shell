@@ -49,7 +49,7 @@ dependencies {
     compile "org.springframework.hateoas:spring-hateoas:${springHateoasVersion}"
     compile "org.springframework.plugin:spring-plugin-core:${springPluginVersion}"
 
-    providedCompile "javax.servlet:servlet-api:${servletVersion}"
+    providedCompile "javax.servlet:javax.servlet-api:${servletVersion}"
 
     runtime "org.slf4j:jul-to-slf4j:${slf4jVersion}"
     runtime "org.slf4j:log4j-over-slf4j:${slf4jVersion}"
